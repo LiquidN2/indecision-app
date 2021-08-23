@@ -4,7 +4,7 @@
   "description": "",
   "deafult": "index.html",
   "scripts": {
-    "start": "parcel serve src/index.html ",
+    "start": "parcel serve src/index.html --no-cache",
     "build": "parcel build src/index.html",
     "build:clean": "rm -r dist && npm run build"
   },
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "core-js": "^3.16.2",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-modal": "^3.14.3",
