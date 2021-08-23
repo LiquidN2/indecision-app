@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Action = props => (
-  <div>
+  <div className="action">
     <button
-      className="btn btn--lg btn--full u-margin-bottom--xl"
+      className="btn btn--lg btn--full"
       onClick={props.pickOption}
       disabled={!props.hasOptions}
     >
